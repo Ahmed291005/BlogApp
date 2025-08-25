@@ -5,7 +5,6 @@
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite\&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery\&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn\&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
@@ -17,12 +16,12 @@ Handles authentication, blog management, media uploads, and background tasks wit
 
 ## ✨ Features
 
-✅ **User Authentication** – Secure signup/login with JWT
-✅ **Blog Management** – Create, read, update, delete posts
-✅ **Rich Text Support** – Integrated with TinyMCE editor
-✅ **Image Uploads** – Managed with Pillow & Django Storages
-✅ **Background Tasks** – Powered by Celery + Redis
-✅ **Testing Suite** – Pytest with coverage & playwright integration
+- ✅ **User Authentication** – Secure signup/login with JWT
+- ✅ **Blog Management** – Create, read, update, delete posts
+- ✅ **Rich Text Support** – Integrated with TinyMCE editor
+- ✅ **Image Uploads** – Managed with Pillow & Django Storages
+- ✅ **Background Tasks** – Powered by Celery + Redis
+- ✅ **Testing Suite** – Pytest with coverage & playwright integration
 
 ---
 
