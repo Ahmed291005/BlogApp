@@ -1,7 +1,3 @@
-Got it 👍 Thanks for clarifying! Since your project **uses SQLite (default)**, we should update the README to reflect that (instead of PostgreSQL as primary).
-
-Here’s the corrected version:
-
 ---
 
 # ✍️ Blog App - Django REST API
@@ -16,7 +12,7 @@ Here’s the corrected version:
 
 ---
 
-A **scalable blogging backend** built with **Django + Django REST Framework**.
+A **scalable blogging app** built with **Django + Django REST Framework**.
 Handles authentication, blog management, media uploads, and background tasks with **Celery + Redis**.
 
 ---
