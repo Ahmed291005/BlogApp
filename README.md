@@ -1,8 +1,14 @@
+Got it 👍 Thanks for clarifying! Since your project **uses SQLite (default)**, we should update the README to reflect that (instead of PostgreSQL as primary).
+
+Here’s the corrected version:
+
+---
+
 # ✍️ Blog App - Django REST API
 
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django\&logoColor=white)
 ![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?logo=django\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql\&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite\&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis\&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?logo=celery\&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn\&logoColor=white)
@@ -28,18 +34,17 @@ Handles authentication, blog management, media uploads, and background tasks wit
 
 ## 🚀 Live Demo
 
-> 🌍 Coming soon — Deployed with [Vercel](https://vercel.com/).  
-Check back here once live deployment is linked.
+> 🌍 Coming soon — Deployment link will be added here.
 
 ---
 
 ## ⚙️ Tech Stack
 
-**Backend:** Django 3.1, Django REST Framework, Celery
-**Database:** PostgreSQL (default: SQLite for dev)
-**Task Queue:** Celery + Redis
-**Storage:** Django Storages (S3, local, etc.)
-**Deployment:** Gunicorn, Docker-ready
+* **Backend:** Django 3.1, Django REST Framework, Celery
+* **Database:** SQLite (default) → Easily switchable to PostgreSQL
+* **Task Queue:** Celery + Redis
+* **Storage:** Django Storages (S3, local, etc.)
+* **Deployment:** Gunicorn, Docker-ready
 
 ---
 
@@ -68,8 +73,8 @@ cd BlogApp
 
 ```bash
 python -m venv env
-.\env\Scripts\activate   # Windows
-source env/bin/activate  # Mac/Linux
+.\env\Scripts\activate   # Windows  
+source env/bin/activate  # Mac/Linux  
 ```
 
 3️⃣ Install dependencies
@@ -129,5 +134,4 @@ Made with ❤️ by **Muhammad Ahmed**
 
 ---
 
-
-Would you like me to also make a **matching README for the frontend (React part)** when we get there, so both repos look like a single polished full-stack project?
+Do you want me to also **add a section showing how to switch from SQLite → PostgreSQL** (since your requirements.txt has `psycopg2-binary`)? That way your README covers both dev (SQLite) and production (Postgres) setups.
