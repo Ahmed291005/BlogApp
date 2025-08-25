@@ -1,5 +1,3 @@
----
-
 # ✍️ Blog App - Django REST API
 
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django\&logoColor=white)
@@ -129,5 +127,3 @@ Made with ❤️ by **Muhammad Ahmed**
 * 💻 [GitHub](https://github.com/Ahmed291005)
 
 ---
-
-Do you want me to also **add a section showing how to switch from SQLite → PostgreSQL** (since your requirements.txt has `psycopg2-binary`)? That way your README covers both dev (SQLite) and production (Postgres) setups.
